@@ -2,10 +2,6 @@ sudo: required
 services:
     - docker
 
-cache:
-    directories:
-        - "$HOME/google-cloud-sdk/"
-
 env:
     global:
         - SHA=$(git rev-parse HEAD)
