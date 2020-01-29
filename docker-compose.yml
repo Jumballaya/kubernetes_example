@@ -14,7 +14,7 @@ services:
         container_name: nginx
         build:
             context: ./nginx
-            dockerfile: Dockerfile
+            dockerfile: Dockerfile.dev
         depends_on:
             - api
             - client
